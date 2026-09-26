@@ -1,0 +1,8 @@
+# Dense retrieval dependencies used by the submitted Docker profile.
+# torch==2.5.1 CPU is installed separately from the official PyTorch index.
+joblib==1.6.0
+rank-bm25==0.2.2
+scikit-learn==1.9.1
+scipy==1.18.1
+sentence-transformers==5.7.0
+threadpoolctl==3.7.0

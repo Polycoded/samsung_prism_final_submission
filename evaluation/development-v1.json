@@ -1,0 +1,1085 @@
+{
+  "disclosure": "120 development replay variants from 10 query families; correlated variants, not 120 independent queries.",
+  "cases": [
+    {
+      "id": "dev-001",
+      "family": "single-0",
+      "text": "How long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-002",
+      "family": "single-1",
+      "text": "What proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-003",
+      "family": "single-2",
+      "text": "What is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-004",
+      "family": "single-3",
+      "text": "What video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-005",
+      "family": "single-4",
+      "text": "How long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-006",
+      "family": "single-5",
+      "text": "Where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-007",
+      "family": "single-6",
+      "text": "When should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-008",
+      "family": "single-7",
+      "text": "How do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-009",
+      "family": "single-8",
+      "text": "What app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-010",
+      "family": "single-9",
+      "text": "When can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-011",
+      "family": "single-0",
+      "text": "Please how long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-012",
+      "family": "single-1",
+      "text": "Please what proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-013",
+      "family": "single-2",
+      "text": "Please what is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-014",
+      "family": "single-3",
+      "text": "Please what video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-015",
+      "family": "single-4",
+      "text": "Please how long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-016",
+      "family": "single-5",
+      "text": "Please where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-017",
+      "family": "single-6",
+      "text": "Please when should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-018",
+      "family": "single-7",
+      "text": "Please how do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-019",
+      "family": "single-8",
+      "text": "Please what app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-020",
+      "family": "single-9",
+      "text": "Please when can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-021",
+      "family": "single-0",
+      "text": "Tell me: How long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-022",
+      "family": "single-1",
+      "text": "Tell me: What proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-023",
+      "family": "single-2",
+      "text": "Tell me: What is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-024",
+      "family": "single-3",
+      "text": "Tell me: What video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-025",
+      "family": "single-4",
+      "text": "Tell me: How long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-026",
+      "family": "single-5",
+      "text": "Tell me: Where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-027",
+      "family": "single-6",
+      "text": "Tell me: When should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-028",
+      "family": "single-7",
+      "text": "Tell me: How do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-029",
+      "family": "single-8",
+      "text": "Tell me: What app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-030",
+      "family": "single-9",
+      "text": "Tell me: When can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-031",
+      "family": "single-0",
+      "text": "How long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-032",
+      "family": "single-1",
+      "text": "What proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-033",
+      "family": "single-2",
+      "text": "What is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-034",
+      "family": "single-3",
+      "text": "What video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-035",
+      "family": "single-4",
+      "text": "How long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-036",
+      "family": "single-5",
+      "text": "Where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-037",
+      "family": "single-6",
+      "text": "When should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-038",
+      "family": "single-7",
+      "text": "How do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-039",
+      "family": "single-8",
+      "text": "What app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-040",
+      "family": "single-9",
+      "text": "When can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-041",
+      "family": "single-0",
+      "text": "Please how long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-042",
+      "family": "single-1",
+      "text": "Please what proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-043",
+      "family": "single-2",
+      "text": "Please what is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-044",
+      "family": "single-3",
+      "text": "Please what video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-045",
+      "family": "single-4",
+      "text": "Please how long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-046",
+      "family": "single-5",
+      "text": "Please where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-047",
+      "family": "single-6",
+      "text": "Please when should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-048",
+      "family": "single-7",
+      "text": "Please how do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-049",
+      "family": "single-8",
+      "text": "Please what app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-050",
+      "family": "single-9",
+      "text": "Please when can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-051",
+      "family": "single-0",
+      "text": "Tell me: How long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-052",
+      "family": "single-1",
+      "text": "Tell me: What proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-053",
+      "family": "single-2",
+      "text": "Tell me: What is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-054",
+      "family": "single-3",
+      "text": "Tell me: What video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-055",
+      "family": "single-4",
+      "text": "Tell me: How long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-056",
+      "family": "single-5",
+      "text": "Tell me: Where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-057",
+      "family": "single-6",
+      "text": "Tell me: When should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-058",
+      "family": "single-7",
+      "text": "Tell me: How do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-059",
+      "family": "single-8",
+      "text": "Tell me: What app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-060",
+      "family": "single-9",
+      "text": "Tell me: When can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-061",
+      "family": "single-0",
+      "text": "How long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-062",
+      "family": "single-1",
+      "text": "What proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-063",
+      "family": "single-2",
+      "text": "What is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-064",
+      "family": "single-3",
+      "text": "What video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-065",
+      "family": "single-4",
+      "text": "How long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-066",
+      "family": "single-5",
+      "text": "Where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-067",
+      "family": "single-6",
+      "text": "When should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-068",
+      "family": "single-7",
+      "text": "How do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-069",
+      "family": "single-8",
+      "text": "What app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-070",
+      "family": "single-9",
+      "text": "When can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-071",
+      "family": "single-0",
+      "text": "Please how long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-072",
+      "family": "single-1",
+      "text": "Please what proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-073",
+      "family": "single-2",
+      "text": "Please what is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-074",
+      "family": "single-3",
+      "text": "Please what video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-075",
+      "family": "single-4",
+      "text": "Please how long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-076",
+      "family": "single-5",
+      "text": "Please where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-077",
+      "family": "single-6",
+      "text": "Please when should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-078",
+      "family": "single-7",
+      "text": "Please how do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-079",
+      "family": "single-8",
+      "text": "Please what app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-080",
+      "family": "single-9",
+      "text": "Please when can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-081",
+      "family": "single-0",
+      "text": "Tell me: How long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-082",
+      "family": "single-1",
+      "text": "Tell me: What proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-083",
+      "family": "single-2",
+      "text": "Tell me: What is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-084",
+      "family": "single-3",
+      "text": "Tell me: What video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-085",
+      "family": "single-4",
+      "text": "Tell me: How long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-086",
+      "family": "single-5",
+      "text": "Tell me: Where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-087",
+      "family": "single-6",
+      "text": "Tell me: When should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-088",
+      "family": "single-7",
+      "text": "Tell me: How do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-089",
+      "family": "single-8",
+      "text": "Tell me: What app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-090",
+      "family": "single-9",
+      "text": "Tell me: When can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-091",
+      "family": "single-0",
+      "text": "How long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-092",
+      "family": "single-1",
+      "text": "What proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-093",
+      "family": "single-2",
+      "text": "What is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-094",
+      "family": "single-3",
+      "text": "What video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-095",
+      "family": "single-4",
+      "text": "How long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-096",
+      "family": "single-5",
+      "text": "Where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-097",
+      "family": "single-6",
+      "text": "When should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-098",
+      "family": "single-7",
+      "text": "How do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-099",
+      "family": "single-8",
+      "text": "What app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-100",
+      "family": "single-9",
+      "text": "When can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-101",
+      "family": "single-0",
+      "text": "Please how long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-102",
+      "family": "single-1",
+      "text": "Please what proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-103",
+      "family": "single-2",
+      "text": "Please what is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-104",
+      "family": "single-3",
+      "text": "Please what video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-105",
+      "family": "single-4",
+      "text": "Please how long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-106",
+      "family": "single-5",
+      "text": "Please where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-107",
+      "family": "single-6",
+      "text": "Please when should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-108",
+      "family": "single-7",
+      "text": "Please how do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-109",
+      "family": "single-8",
+      "text": "Please what app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-110",
+      "family": "single-9",
+      "text": "Please when can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-111",
+      "family": "single-0",
+      "text": "Tell me: How long is the LumaPad S1 limited warranty?",
+      "gold": [
+        "LumaPad_S1 §Warranty.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-112",
+      "family": "single-1",
+      "text": "Tell me: What proof opens a LumaPad S1 repair?",
+      "gold": [
+        "LumaPad_S1 §Repair.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-113",
+      "family": "single-2",
+      "text": "Tell me: What is the LumaPad S2 battery coverage period?",
+      "gold": [
+        "LumaPad_S2 §Battery.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-114",
+      "family": "single-3",
+      "text": "Tell me: What video history does LumaCam C1 Basic retain?",
+      "gold": [
+        "LumaCam_C1 §Cloud.1"
+      ],
+      "stream_prefix_words": 6
+    },
+    {
+      "id": "dev-115",
+      "family": "single-4",
+      "text": "Tell me: How long is the LumaCam C1 free Plus trial?",
+      "gold": [
+        "LumaCam_C1 §Cloud.2"
+      ],
+      "stream_prefix_words": 1
+    },
+    {
+      "id": "dev-116",
+      "family": "single-5",
+      "text": "Tell me: Where is LumaCam C2 activity-zone analysis processed?",
+      "gold": [
+        "LumaCam_C2 §Privacy.1"
+      ],
+      "stream_prefix_words": 2
+    },
+    {
+      "id": "dev-117",
+      "family": "single-6",
+      "text": "Tell me: When should the LumaAir A1 PureAir filter be replaced?",
+      "gold": [
+        "LumaAir_A1 §Maintenance.1"
+      ],
+      "stream_prefix_words": 3
+    },
+    {
+      "id": "dev-118",
+      "family": "single-7",
+      "text": "Tell me: How do I reset the LumaAir A1 filter reminder?",
+      "gold": [
+        "LumaAir_A1 §Setup.1"
+      ],
+      "stream_prefix_words": 4
+    },
+    {
+      "id": "dev-119",
+      "family": "single-8",
+      "text": "Tell me: What app version is required for LumaHub H1 setup?",
+      "gold": [
+        "LumaHub_H1 §Setup.1"
+      ],
+      "stream_prefix_words": 5
+    },
+    {
+      "id": "dev-120",
+      "family": "single-9",
+      "text": "Tell me: When can I cancel CarePlus for a full refund?",
+      "gold": [
+        "CarePlus §Cancellation.1"
+      ],
+      "stream_prefix_words": 6
+    }
+  ]
+}

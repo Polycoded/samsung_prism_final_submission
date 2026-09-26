@@ -1,0 +1,30 @@
+services:
+  live:
+    image: citefrontier-live:submission
+    build:
+      context: ..
+      dockerfile: prototype/Dockerfile
+    ports:
+      - "127.0.0.1:${CITEFRONTIER_PORT:-8000}:8000"
+    environment:
+      CITEFRONTIER_BACKEND: dense
+      CITEFRONTIER_PARSER: auto
+      CITEFRONTIER_FALLBACK_PARSER: spacy
+      CITEFRONTIER_BERT_MODEL: /app/bert_intent_tagger/model/checkpoints/best
+      CITEFRONTIER_BERT_THRESHOLD: "0.90"
+      CITEFRONTIER_BERT_DISAGREE_THRESHOLD: "0.97"
+      CITEFRONTIER_DEMO: ${CITEFRONTIER_DEMO:-0}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"]
+      interval: 5s
+      timeout: 10s
+      retries: 24
+      start_period: 60s
+
+  replay:
+    image: citefrontier-live:submission
+    profiles: ["verify"]
+    depends_on:
+      live:
+        condition: service_healthy
+    command: ["python", "-m", "evaluation.container_replay", "--url", "ws://live:8000/ws/stream", "--out", "/tmp/container-replay.json"]

@@ -1,0 +1,2 @@
+# Optional JSON Schema validation for submission audits.
+jsonschema==4.25.1

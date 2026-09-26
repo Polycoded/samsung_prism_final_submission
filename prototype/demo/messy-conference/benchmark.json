@@ -1,0 +1,83 @@
+[
+  {
+    "id": "messy-01",
+    "question": "umm umm when when does badge pickup open",
+    "expected_citations": [
+      "Prism_Summit_2026 §Registration.final"
+    ],
+    "intent_count": 1
+  },
+  {
+    "id": "messy-02",
+    "question": "uh for Prism Summit 2026 what what is Hall A capacity? erm what audio visual equipment does Hall A provide?",
+    "expected_citations": [
+      "Prism_Summit_2026 §Hall_A.capacity",
+      "Prism_Summit_2026 §Hall_A.av"
+    ],
+    "intent_count": 2
+  },
+  {
+    "id": "messy-03",
+    "question": "umm what is the the attendee wifi network PRISM",
+    "expected_citations": [
+      "Prism_Summit_2026 §Network.final"
+    ],
+    "intent_count": 1
+  },
+  {
+    "id": "messy-04",
+    "question": "er when must severe severe allergy requests be submitted",
+    "expected_citations": [
+      "Prism_Summit_2026 §Catering.allergens"
+    ],
+    "intent_count": 1
+  },
+  {
+    "id": "messy-05",
+    "question": "uh which sessions are not not recorded",
+    "expected_citations": [
+      "Prism_Summit_2026 §Recording.consent"
+    ],
+    "intent_count": 1
+  },
+  {
+    "id": "messy-06",
+    "question": "umm what is the final final location and time for the Edge AI keynote",
+    "expected_citations": [
+      "Prism_Summit_2026 §Schedule.change"
+    ],
+    "intent_count": 1
+  },
+  {
+    "id": "messy-07",
+    "question": "ah during an alarm where where do we assemble",
+    "expected_citations": [
+      "Prism_Summit_2026 §Emergency.route"
+    ],
+    "intent_count": 1
+  },
+  {
+    "id": "messy-08",
+    "question": "erm for Partner Expo Notes what power does a standard booth receive? uh what is the freight access time?",
+    "expected_citations": [
+      "Partner_Expo_Notes §Booth_power.final",
+      "Partner_Expo_Notes §Freight.final"
+    ],
+    "intent_count": 2
+  },
+  {
+    "id": "messy-09",
+    "question": "umm when is exhibitor exhibitor support open",
+    "expected_citations": [
+      "Partner_Expo_Notes §Support.final"
+    ],
+    "intent_count": 1
+  },
+  {
+    "id": "messy-10",
+    "question": "uh does the conference provide helicopter helicopter parking",
+    "expected_citations": [],
+    "unsupported": true,
+    "intent_count": 1
+  }
+]

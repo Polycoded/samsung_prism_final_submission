@@ -1,0 +1,1684 @@
+{
+  "status": "local acceptance results",
+  "official_validation": "pending",
+  "disclosure": "Author-known synthetic control. Not blind held-out performance. Exact extraction attribution is not answer correctness.",
+  "configuration": {
+    "backend": "lightweight",
+    "parser": "spacy_dependency_rules",
+    "reuse": false,
+    "rerank": true,
+    "final_only": false,
+    "python": "3.12.0",
+    "machine": "AMD64",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "corpus_hash": "7d047b180a7890ecee8acc4083e181886e90df876b63744a7519febdc2c966f5",
+    "dataset_sha256": "beae23a801229bf493b472083437b589724e07312640c18397411ad1e2644641"
+  },
+  "cases": {
+    "passed": 60,
+    "total": 60,
+    "categories": {
+      "compound": {
+        "passed": 15,
+        "total": 15
+      },
+      "correction": {
+        "passed": 10,
+        "total": 10
+      },
+      "presentation": {
+        "passed": 5,
+        "total": 5
+      },
+      "refinement": {
+        "passed": 10,
+        "total": 10
+      },
+      "single": {
+        "passed": 10,
+        "total": 10
+      },
+      "unsupported": {
+        "passed": 10,
+        "total": 10
+      }
+    }
+  },
+  "metrics": {
+    "attribution": {
+      "supported": 90,
+      "emitted": 90,
+      "rate": 1.0
+    },
+    "intent_coverage": {
+      "correct": 90,
+      "expected": 90,
+      "rate": 1.0
+    },
+    "early_retrieval": {
+      "triggered": 37,
+      "eligible": 40,
+      "rate": 0.925
+    },
+    "trace_coverage": {
+      "complete": 1027,
+      "events": 1027,
+      "rate": 1.0
+    },
+    "token_cost": {
+      "tokens": 0,
+      "estimated_usd": 0.0,
+      "basis": "non_generative_pipeline"
+    },
+    "fabricated_ids": [],
+    "searches": 146,
+    "cache_reuses": 0,
+    "warm_endpoint_ms": {
+      "p50": 9.74,
+      "p95": 13.65
+    },
+    "model_load_ms": 830.86
+  },
+  "case_results": [
+    {
+      "id": "single-01",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "How long is the LumaPad S1 limited warranty?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.86,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "single-02",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What proof opens a LumaPad S1 repair?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.12,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "single-03",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is the LumaPad S2 battery coverage period?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S2 \u00a7Battery.1"
+          ],
+          "citations": [
+            "LumaPad_S2 \u00a7Battery.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.65,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "single-04",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What video history does LumaCam C1 Basic retain?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C1 \u00a7Cloud.1"
+          ],
+          "citations": [
+            "LumaCam_C1 \u00a7Cloud.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.38,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "single-05",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "How long is the LumaCam C1 free Plus trial?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C1 \u00a7Cloud.2"
+          ],
+          "citations": [
+            "LumaCam_C1 \u00a7Cloud.2"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.4,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "single-06",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "Where is LumaCam C2 activity-zone analysis processed?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C2 \u00a7Privacy.1"
+          ],
+          "citations": [
+            "LumaCam_C2 \u00a7Privacy.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.83,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "single-07",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "When should the LumaAir A1 PureAir filter be replaced?",
+          "pass": true,
+          "gold": [
+            "LumaAir_A1 \u00a7Maintenance.1"
+          ],
+          "citations": [
+            "LumaAir_A1 \u00a7Maintenance.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.19,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "single-08",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "How do I reset the LumaAir A1 filter reminder?",
+          "pass": true,
+          "gold": [
+            "LumaAir_A1 \u00a7Setup.1"
+          ],
+          "citations": [
+            "LumaAir_A1 \u00a7Setup.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 12.14,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "single-09",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What app version is required for LumaHub H1 setup?",
+          "pass": true,
+          "gold": [
+            "LumaHub_H1 \u00a7Setup.1"
+          ],
+          "citations": [
+            "LumaHub_H1 \u00a7Setup.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.7,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "single-10",
+      "category": "single",
+      "pass": true,
+      "steps": [
+        {
+          "query": "When can I cancel CarePlus for a full refund?",
+          "pass": true,
+          "gold": [
+            "CarePlus \u00a7Cancellation.1"
+          ],
+          "citations": [
+            "CarePlus \u00a7Cancellation.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.63,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "compound-01",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S1, what is the warranty period and what proof opens a repair?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 10.46,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-02",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S1, what liquid damage is excluded and what receipt is required for repair?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 13.3,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-03",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S1, what is the warranty period and what liquid damage is excluded?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Warranty.2"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Warranty.2"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 10.11,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-04",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S2, what is the warranty period and what battery capacity coverage applies?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S2 \u00a7Warranty.1",
+            "LumaPad_S2 \u00a7Battery.1"
+          ],
+          "citations": [
+            "LumaPad_S2 \u00a7Warranty.1",
+            "LumaPad_S2 \u00a7Battery.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 18.81,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-05",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S2, what is the battery coverage and where must warranty repairs be completed?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S2 \u00a7Battery.1",
+            "LumaPad_S2 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S2 \u00a7Battery.1",
+            "LumaPad_S2 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 19.66,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-06",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaCam C1, what is the warranty period and how much Basic video history is kept?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C1 \u00a7Warranty.1",
+            "LumaCam_C1 \u00a7Cloud.1"
+          ],
+          "citations": [
+            "LumaCam_C1 \u00a7Warranty.1",
+            "LumaCam_C1 \u00a7Cloud.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 15.69,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-07",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaCam C1, how long is the free Plus trial and how much Basic history is retained?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C1 \u00a7Cloud.2",
+            "LumaCam_C1 \u00a7Cloud.1"
+          ],
+          "citations": [
+            "LumaCam_C1 \u00a7Cloud.2",
+            "LumaCam_C1 \u00a7Cloud.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.61,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-08",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaCam C2, what is the warranty period and where is activity-zone analysis processed?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C2 \u00a7Warranty.1",
+            "LumaCam_C2 \u00a7Privacy.1"
+          ],
+          "citations": [
+            "LumaCam_C2 \u00a7Warranty.1",
+            "LumaCam_C2 \u00a7Privacy.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.34,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-09",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaCam C2, how much Basic video history is kept and where is activity-zone analysis processed?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C2 \u00a7Cloud.1",
+            "LumaCam_C2 \u00a7Privacy.1"
+          ],
+          "citations": [
+            "LumaCam_C2 \u00a7Cloud.1",
+            "LumaCam_C2 \u00a7Privacy.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.95,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-10",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaAir A1, what is the warranty period and when do I replace the PureAir filter?",
+          "pass": true,
+          "gold": [
+            "LumaAir_A1 \u00a7Warranty.1",
+            "LumaAir_A1 \u00a7Maintenance.1"
+          ],
+          "citations": [
+            "LumaAir_A1 \u00a7Warranty.1",
+            "LumaAir_A1 \u00a7Maintenance.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 13.65,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-11",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaAir A1, when do I replace the PureAir filter and how do I reset the filter reminder?",
+          "pass": true,
+          "gold": [
+            "LumaAir_A1 \u00a7Maintenance.1",
+            "LumaAir_A1 \u00a7Setup.1"
+          ],
+          "citations": [
+            "LumaAir_A1 \u00a7Maintenance.1",
+            "LumaAir_A1 \u00a7Setup.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.27,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-12",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaAir A2, when do I replace the PureAir filter and which Wi-Fi network is needed for setup?",
+          "pass": true,
+          "gold": [
+            "LumaAir_A2 \u00a7Maintenance.1",
+            "LumaAir_A2 \u00a7Setup.1"
+          ],
+          "citations": [
+            "LumaAir_A2 \u00a7Maintenance.1",
+            "LumaAir_A2 \u00a7Setup.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.89,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-13",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaWash W1, what is motor warranty coverage and when should the inlet hose be replaced?",
+          "pass": true,
+          "gold": [
+            "LumaWash_W1 \u00a7Warranty.1",
+            "LumaWash_W1 \u00a7Maintenance.1"
+          ],
+          "citations": [
+            "LumaWash_W1 \u00a7Warranty.1",
+            "LumaWash_W1 \u00a7Maintenance.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 10.9,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-14",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaHub H1, what is the warranty period and which app version is needed for setup?",
+          "pass": true,
+          "gold": [
+            "LumaHub_H1 \u00a7Warranty.1",
+            "LumaHub_H1 \u00a7Setup.1"
+          ],
+          "citations": [
+            "LumaHub_H1 \u00a7Warranty.1",
+            "LumaHub_H1 \u00a7Setup.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.4,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "compound-15",
+      "category": "compound",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For CarePlus, when may I purchase the plan and when can I get a cancellation refund?",
+          "pass": true,
+          "gold": [
+            "CarePlus \u00a7Purchase.1",
+            "CarePlus \u00a7Cancellation.1"
+          ],
+          "citations": [
+            "CarePlus \u00a7Purchase.1",
+            "CarePlus \u00a7Cancellation.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 10.78,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "correction-01",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is the limited warranty for LumaPad S2?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.84,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "correction-02",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "How long is the warranty on LumaPad S2?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.53,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "correction-03",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is the limited warranty for LumaCam C2?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaCam_C2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.29,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "correction-04",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "How long is the warranty on LumaCam C2?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaCam_C2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.41,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "correction-05",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is the limited warranty for LumaAir A2?",
+          "pass": true,
+          "gold": [
+            "LumaAir_A2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaAir_A2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.22,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "correction-06",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "How long is the warranty on LumaAir A2?",
+          "pass": true,
+          "gold": [
+            "LumaAir_A2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaAir_A2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.0,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "correction-07",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is the limited warranty for LumaPad S1?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 10.87,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "correction-08",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "How long is the warranty on LumaPad S1?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.94,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "correction-09",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is the limited warranty for LumaCam C1?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaCam_C1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.02,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "correction-10",
+      "category": "correction",
+      "pass": true,
+      "steps": [
+        {
+          "query": "How long is the warranty on LumaCam C1?",
+          "pass": true,
+          "gold": [
+            "LumaCam_C1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaCam_C1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.8,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-01",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaPad S1 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 7.86,
+          "clarification": null
+        },
+        {
+          "query": "Actually LumaPad S2 instead",
+          "pass": true,
+          "gold": [
+            "LumaPad_S2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 7.39,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-02",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaCam C1 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaCam_C1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaCam_C1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 7.14,
+          "clarification": null
+        },
+        {
+          "query": "Actually LumaCam C2 instead",
+          "pass": true,
+          "gold": [
+            "LumaCam_C2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaCam_C2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 7.07,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-03",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaAir A1 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaAir_A1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaAir_A1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 7.69,
+          "clarification": null
+        },
+        {
+          "query": "Actually LumaAir A2 instead",
+          "pass": true,
+          "gold": [
+            "LumaAir_A2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaAir_A2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 7.51,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-04",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaPad S2 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaPad_S2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 6.79,
+          "clarification": null
+        },
+        {
+          "query": "Actually LumaPad S1 instead",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 7.12,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-05",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaCam C2 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaCam_C2 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaCam_C2 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.01,
+          "clarification": null
+        },
+        {
+          "query": "Actually LumaCam C1 instead",
+          "pass": true,
+          "gold": [
+            "LumaCam_C1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaCam_C1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 7.49,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-06",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.92,
+          "clarification": null
+        },
+        {
+          "query": "What about warranty liquid damage exclusions?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 10.47,
+          "clarification": null
+        }
+      ],
+      "searches": 3,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-07",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.72,
+          "clarification": null
+        },
+        {
+          "query": "Actually warranty exclusions for liquid damage",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 8.88,
+          "clarification": null
+        }
+      ],
+      "searches": 3,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-08",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.81,
+          "clarification": null
+        },
+        {
+          "query": "How about warranty liquid damage?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 8.53,
+          "clarification": null
+        }
+      ],
+      "searches": 3,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-09",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.24,
+          "clarification": null
+        },
+        {
+          "query": "For warranty, what about liquid damage?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 8.7,
+          "clarification": null
+        }
+      ],
+      "searches": 3,
+      "reuses": 0
+    },
+    {
+      "id": "refinement-10",
+      "category": "refinement",
+      "pass": true,
+      "steps": [
+        {
+          "query": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.74,
+          "clarification": null
+        },
+        {
+          "query": "What about the liquid damage warranty exclusions?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.2",
+            "LumaPad_S1 \u00a7Repair.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "targeted_delta",
+          "latency_ms": 10.88,
+          "clarification": null
+        }
+      ],
+      "searches": 3,
+      "reuses": 0
+    },
+    {
+      "id": "presentation-01",
+      "category": "presentation",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaPad S1 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 10.7,
+          "clarification": null
+        },
+        {
+          "query": "Put that in bullets",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "suppress",
+          "reason": "presentation_only",
+          "latency_ms": 0.18,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "presentation-02",
+      "category": "presentation",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaPad S1 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 7.59,
+          "clarification": null
+        },
+        {
+          "query": "Show that as bullets",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "suppress",
+          "reason": "presentation_only",
+          "latency_ms": 0.22,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "presentation-03",
+      "category": "presentation",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaPad S1 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 7.0,
+          "clarification": null
+        },
+        {
+          "query": "Repeat the answer",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "suppress",
+          "reason": "presentation_only",
+          "latency_ms": 0.12,
+          "clarification": null
+        }
+      ],
+      "searches": 2,
+      "reuses": 0
+    },
+    {
+      "id": "presentation-04",
+      "category": "presentation",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaPad S1 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 6.44,
+          "clarification": null
+        },
+        {
+          "query": "Put that in bullets and what is the LumaPad S2 battery coverage?",
+          "pass": true,
+          "gold": [
+            "LumaPad_S2 \u00a7Battery.1"
+          ],
+          "citations": [
+            "LumaPad_S2 \u00a7Battery.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 9.9,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "presentation-05",
+      "category": "presentation",
+      "pass": true,
+      "steps": [
+        {
+          "query": "LumaPad S1 warranty period",
+          "pass": true,
+          "gold": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "citations": [
+            "LumaPad_S1 \u00a7Warranty.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 6.63,
+          "clarification": null
+        },
+        {
+          "query": "Show that in bullets and what is the LumaAir A1 filter replacement period?",
+          "pass": true,
+          "gold": [
+            "LumaAir_A1 \u00a7Maintenance.1"
+          ],
+          "citations": [
+            "LumaAir_A1 \u00a7Maintenance.1"
+          ],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.01,
+          "clarification": null
+        }
+      ],
+      "searches": 4,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-01",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What telepathy features does LumaPad S1 offer?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 15.63,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-02",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "Does LumaCam C1 support teleportation?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 12.15,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-03",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is the retail price of LumaAir A1?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.73,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-04",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "Who is the CEO of LumaHome?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.95,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-05",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is the lunar warranty exception?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.65,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-06",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What colors does LumaPad S2 come in?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 11.4,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-07",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "Does CarePlus cover cryptocurrency losses?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 10.03,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-08",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is the LumaPad X99 warranty period?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.34,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-09",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What is LumaFridge F1 solar charging voltage?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 8.51,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    },
+    {
+      "id": "unsupported-10",
+      "category": "unsupported",
+      "pass": true,
+      "steps": [
+        {
+          "query": "What are LumaWash W1 nuclear reactor specifications?",
+          "pass": true,
+          "gold": [],
+          "citations": [],
+          "decision": "commit_retrieve",
+          "reason": "final_transcript",
+          "latency_ms": 10.3,
+          "clarification": null
+        }
+      ],
+      "searches": 1,
+      "reuses": 0
+    }
+  ]
+}

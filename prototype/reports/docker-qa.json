@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-09-26",
+  "image": "citefrontier-live:submission",
+  "image_digest": "sha256:b0e2f183bf40810ec0a2e3bdf35fab9876189cf4704162c0d02d434674e17235",
+  "image_size_bytes": 3176580001,
+  "runtime": {
+    "backend": "dense",
+    "retrieval": "BM25 + all-MiniLM-L6-v2",
+    "reranker": "ms-marco-MiniLM-L-6-v2",
+    "parser": "guarded DistilBERT",
+    "fallback": "spaCy",
+    "offline_inference": true
+  },
+  "checks": {
+    "health": true,
+    "websocket_cases": "60/60",
+    "g2": "37/40",
+    "g3": "15/15",
+    "g4": "90/90",
+    "fabricated_ids": 0,
+    "trace_coverage": "985/985"
+  },
+  "disclosure": "Author-known local acceptance; official Samsung validation pending."
+}

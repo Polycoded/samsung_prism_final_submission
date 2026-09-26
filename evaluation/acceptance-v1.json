@@ -1,0 +1,915 @@
+{
+  "disclosure": "Locally authored acceptance suite. Known to the implementation author; not an independent blind holdout or Samsung evaluation.",
+  "cases": [
+    {
+      "id": "single-01",
+      "category": "single",
+      "steps": [
+        {
+          "text": "How long is the LumaPad S1 limited warranty?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-02",
+      "category": "single",
+      "steps": [
+        {
+          "text": "What proof opens a LumaPad S1 repair?",
+          "gold": [
+            "LumaPad_S1 §Repair.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-03",
+      "category": "single",
+      "steps": [
+        {
+          "text": "What is the LumaPad S2 battery coverage period?",
+          "gold": [
+            "LumaPad_S2 §Battery.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-04",
+      "category": "single",
+      "steps": [
+        {
+          "text": "What video history does LumaCam C1 Basic retain?",
+          "gold": [
+            "LumaCam_C1 §Cloud.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-05",
+      "category": "single",
+      "steps": [
+        {
+          "text": "How long is the LumaCam C1 free Plus trial?",
+          "gold": [
+            "LumaCam_C1 §Cloud.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-06",
+      "category": "single",
+      "steps": [
+        {
+          "text": "Where is LumaCam C2 activity-zone analysis processed?",
+          "gold": [
+            "LumaCam_C2 §Privacy.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-07",
+      "category": "single",
+      "steps": [
+        {
+          "text": "When should the LumaAir A1 PureAir filter be replaced?",
+          "gold": [
+            "LumaAir_A1 §Maintenance.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-08",
+      "category": "single",
+      "steps": [
+        {
+          "text": "How do I reset the LumaAir A1 filter reminder?",
+          "gold": [
+            "LumaAir_A1 §Setup.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-09",
+      "category": "single",
+      "steps": [
+        {
+          "text": "What app version is required for LumaHub H1 setup?",
+          "gold": [
+            "LumaHub_H1 §Setup.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "single-10",
+      "category": "single",
+      "steps": [
+        {
+          "text": "When can I cancel CarePlus for a full refund?",
+          "gold": [
+            "CarePlus §Cancellation.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compound-01",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaPad S1, what is the warranty period and what proof opens a repair?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1",
+            "LumaPad_S1 §Repair.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-02",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaPad S1, what liquid damage is excluded and what receipt is required for repair?",
+          "gold": [
+            "LumaPad_S1 §Warranty.2",
+            "LumaPad_S1 §Repair.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-03",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaPad S1, what is the warranty period and what liquid damage is excluded?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1",
+            "LumaPad_S1 §Warranty.2"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-04",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaPad S2, what is the warranty period and what battery capacity coverage applies?",
+          "gold": [
+            "LumaPad_S2 §Warranty.1",
+            "LumaPad_S2 §Battery.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-05",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaPad S2, what is the battery coverage and where must warranty repairs be completed?",
+          "gold": [
+            "LumaPad_S2 §Battery.1",
+            "LumaPad_S2 §Repair.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-06",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaCam C1, what is the warranty period and how much Basic video history is kept?",
+          "gold": [
+            "LumaCam_C1 §Warranty.1",
+            "LumaCam_C1 §Cloud.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-07",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaCam C1, how long is the free Plus trial and how much Basic history is retained?",
+          "gold": [
+            "LumaCam_C1 §Cloud.2",
+            "LumaCam_C1 §Cloud.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-08",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaCam C2, what is the warranty period and where is activity-zone analysis processed?",
+          "gold": [
+            "LumaCam_C2 §Warranty.1",
+            "LumaCam_C2 §Privacy.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-09",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaCam C2, how much Basic video history is kept and where is activity-zone analysis processed?",
+          "gold": [
+            "LumaCam_C2 §Cloud.1",
+            "LumaCam_C2 §Privacy.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-10",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaAir A1, what is the warranty period and when do I replace the PureAir filter?",
+          "gold": [
+            "LumaAir_A1 §Warranty.1",
+            "LumaAir_A1 §Maintenance.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-11",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaAir A1, when do I replace the PureAir filter and how do I reset the filter reminder?",
+          "gold": [
+            "LumaAir_A1 §Maintenance.1",
+            "LumaAir_A1 §Setup.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-12",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaAir A2, when do I replace the PureAir filter and which Wi-Fi network is needed for setup?",
+          "gold": [
+            "LumaAir_A2 §Maintenance.1",
+            "LumaAir_A2 §Setup.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-13",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaWash W1, what is motor warranty coverage and when should the inlet hose be replaced?",
+          "gold": [
+            "LumaWash_W1 §Warranty.1",
+            "LumaWash_W1 §Maintenance.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-14",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For LumaHub H1, what is the warranty period and which app version is needed for setup?",
+          "gold": [
+            "LumaHub_H1 §Warranty.1",
+            "LumaHub_H1 §Setup.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "compound-15",
+      "category": "compound",
+      "steps": [
+        {
+          "text": "For CarePlus, when may I purchase the plan and when can I get a cancellation refund?",
+          "gold": [
+            "CarePlus §Purchase.1",
+            "CarePlus §Cancellation.1"
+          ]
+        }
+      ],
+      "intent_count": 2
+    },
+    {
+      "id": "correction-01",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "What is the limited warranty for LumaPad S2?",
+          "gold": [
+            "LumaPad_S2 §Warranty.1"
+          ],
+          "prefixes": [
+            "What is the limited warranty for LumaPad S1",
+            "What is the limited warranty for LumaPad S1 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "correction-02",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "How long is the warranty on LumaPad S2?",
+          "gold": [
+            "LumaPad_S2 §Warranty.1"
+          ],
+          "prefixes": [
+            "How long is the warranty on LumaPad S1",
+            "How long is the warranty on LumaPad S1 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "correction-03",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "What is the limited warranty for LumaCam C2?",
+          "gold": [
+            "LumaCam_C2 §Warranty.1"
+          ],
+          "prefixes": [
+            "What is the limited warranty for LumaCam C1",
+            "What is the limited warranty for LumaCam C1 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "correction-04",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "How long is the warranty on LumaCam C2?",
+          "gold": [
+            "LumaCam_C2 §Warranty.1"
+          ],
+          "prefixes": [
+            "How long is the warranty on LumaCam C1",
+            "How long is the warranty on LumaCam C1 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "correction-05",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "What is the limited warranty for LumaAir A2?",
+          "gold": [
+            "LumaAir_A2 §Warranty.1"
+          ],
+          "prefixes": [
+            "What is the limited warranty for LumaAir A1",
+            "What is the limited warranty for LumaAir A1 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "correction-06",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "How long is the warranty on LumaAir A2?",
+          "gold": [
+            "LumaAir_A2 §Warranty.1"
+          ],
+          "prefixes": [
+            "How long is the warranty on LumaAir A1",
+            "How long is the warranty on LumaAir A1 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "correction-07",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "What is the limited warranty for LumaPad S1?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ],
+          "prefixes": [
+            "What is the limited warranty for LumaPad S2",
+            "What is the limited warranty for LumaPad S2 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "correction-08",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "How long is the warranty on LumaPad S1?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ],
+          "prefixes": [
+            "How long is the warranty on LumaPad S2",
+            "How long is the warranty on LumaPad S2 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "correction-09",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "What is the limited warranty for LumaCam C1?",
+          "gold": [
+            "LumaCam_C1 §Warranty.1"
+          ],
+          "prefixes": [
+            "What is the limited warranty for LumaCam C2",
+            "What is the limited warranty for LumaCam C2 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "correction-10",
+      "category": "correction",
+      "steps": [
+        {
+          "text": "How long is the warranty on LumaCam C1?",
+          "gold": [
+            "LumaCam_C1 §Warranty.1"
+          ],
+          "prefixes": [
+            "How long is the warranty on LumaCam C2",
+            "How long is the warranty on LumaCam C2 period"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "refinement-01",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "LumaPad S1 warranty period",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Actually LumaPad S2 instead",
+          "gold": [
+            "LumaPad_S2 §Warranty.1"
+          ],
+          "delta": true
+        }
+      ]
+    },
+    {
+      "id": "refinement-02",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "LumaCam C1 warranty period",
+          "gold": [
+            "LumaCam_C1 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Actually LumaCam C2 instead",
+          "gold": [
+            "LumaCam_C2 §Warranty.1"
+          ],
+          "delta": true
+        }
+      ]
+    },
+    {
+      "id": "refinement-03",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "LumaAir A1 warranty period",
+          "gold": [
+            "LumaAir_A1 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Actually LumaAir A2 instead",
+          "gold": [
+            "LumaAir_A2 §Warranty.1"
+          ],
+          "delta": true
+        }
+      ]
+    },
+    {
+      "id": "refinement-04",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "LumaPad S2 warranty period",
+          "gold": [
+            "LumaPad_S2 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Actually LumaPad S1 instead",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ],
+          "delta": true
+        }
+      ]
+    },
+    {
+      "id": "refinement-05",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "LumaCam C2 warranty period",
+          "gold": [
+            "LumaCam_C2 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Actually LumaCam C1 instead",
+          "gold": [
+            "LumaCam_C1 §Warranty.1"
+          ],
+          "delta": true
+        }
+      ]
+    },
+    {
+      "id": "refinement-06",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1",
+            "LumaPad_S1 §Repair.1"
+          ]
+        },
+        {
+          "text": "What about warranty liquid damage exclusions?",
+          "gold": [
+            "LumaPad_S1 §Warranty.2",
+            "LumaPad_S1 §Repair.1"
+          ],
+          "delta": true,
+          "preserve": 1
+        }
+      ]
+    },
+    {
+      "id": "refinement-07",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1",
+            "LumaPad_S1 §Repair.1"
+          ]
+        },
+        {
+          "text": "Actually warranty exclusions for liquid damage",
+          "gold": [
+            "LumaPad_S1 §Warranty.2",
+            "LumaPad_S1 §Repair.1"
+          ],
+          "delta": true,
+          "preserve": 1
+        }
+      ]
+    },
+    {
+      "id": "refinement-08",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1",
+            "LumaPad_S1 §Repair.1"
+          ]
+        },
+        {
+          "text": "How about warranty liquid damage?",
+          "gold": [
+            "LumaPad_S1 §Warranty.2",
+            "LumaPad_S1 §Repair.1"
+          ],
+          "delta": true,
+          "preserve": 1
+        }
+      ]
+    },
+    {
+      "id": "refinement-09",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1",
+            "LumaPad_S1 §Repair.1"
+          ]
+        },
+        {
+          "text": "For warranty, what about liquid damage?",
+          "gold": [
+            "LumaPad_S1 §Warranty.2",
+            "LumaPad_S1 §Repair.1"
+          ],
+          "delta": true,
+          "preserve": 1
+        }
+      ]
+    },
+    {
+      "id": "refinement-10",
+      "category": "refinement",
+      "steps": [
+        {
+          "text": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+          "gold": [
+            "LumaPad_S1 §Warranty.1",
+            "LumaPad_S1 §Repair.1"
+          ]
+        },
+        {
+          "text": "What about the liquid damage warranty exclusions?",
+          "gold": [
+            "LumaPad_S1 §Warranty.2",
+            "LumaPad_S1 §Repair.1"
+          ],
+          "delta": true,
+          "preserve": 1
+        }
+      ]
+    },
+    {
+      "id": "presentation-01",
+      "category": "presentation",
+      "steps": [
+        {
+          "text": "LumaPad S1 warranty period",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Put that in bullets",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ],
+          "suppress": true
+        }
+      ]
+    },
+    {
+      "id": "presentation-02",
+      "category": "presentation",
+      "steps": [
+        {
+          "text": "LumaPad S1 warranty period",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Show that as bullets",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ],
+          "suppress": true
+        }
+      ]
+    },
+    {
+      "id": "presentation-03",
+      "category": "presentation",
+      "steps": [
+        {
+          "text": "LumaPad S1 warranty period",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Repeat the answer",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ],
+          "suppress": true
+        }
+      ]
+    },
+    {
+      "id": "presentation-04",
+      "category": "presentation",
+      "steps": [
+        {
+          "text": "LumaPad S1 warranty period",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Put that in bullets and what is the LumaPad S2 battery coverage?",
+          "gold": [
+            "LumaPad_S2 §Battery.1"
+          ],
+          "mixed": true
+        }
+      ]
+    },
+    {
+      "id": "presentation-05",
+      "category": "presentation",
+      "steps": [
+        {
+          "text": "LumaPad S1 warranty period",
+          "gold": [
+            "LumaPad_S1 §Warranty.1"
+          ]
+        },
+        {
+          "text": "Show that in bullets and what is the LumaAir A1 filter replacement period?",
+          "gold": [
+            "LumaAir_A1 §Maintenance.1"
+          ],
+          "mixed": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-01",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "What telepathy features does LumaPad S1 offer?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-02",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "Does LumaCam C1 support teleportation?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-03",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "What is the retail price of LumaAir A1?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-04",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "Who is the CEO of LumaHome?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-05",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "What is the lunar warranty exception?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-06",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "What colors does LumaPad S2 come in?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-07",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "Does CarePlus cover cryptocurrency losses?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-08",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "What is the LumaPad X99 warranty period?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-09",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "What is LumaFridge F1 solar charging voltage?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    },
+    {
+      "id": "unsupported-10",
+      "category": "unsupported",
+      "steps": [
+        {
+          "text": "What are LumaWash W1 nuclear reactor specifications?",
+          "gold": [],
+          "uncertain": true
+        }
+      ]
+    }
+  ]
+}

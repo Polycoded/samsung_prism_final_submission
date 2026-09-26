@@ -1,0 +1,4 @@
+GSAP 3.13.0
+Source: https://www.npmjs.com/package/gsap
+License: GSAP Standard No Charge License — https://gsap.com/community/standard-license/
+Package integrity: sha512-QL7MJ2WMjm1PHWmSnHXoJEBDbdKFaP9D7pH6C/uYhF2lK43cWbAnWV7HlqFFHrFJ4FJ+5Q2ki/gjED8ghVw==

@@ -1,0 +1,13 @@
+Partner Expo field notes. Values below are final unless explicitly called draft.
+
+## Booth_power.final
+Standard booths receive one 230 V, 6 A outlet. High-load equipment needs approval at least five business days before setup.
+
+## Freight.final
+Freight access is through Service Gate 2 between 06:00 and 08:30. Passenger vehicles must not use the freight lane.
+
+## Draft.ignore
+DRAFT ONLY: an early spreadsheet proposed Service Gate 4 and a 09:00 freight cutoff. Both values were rejected.
+
+## Support.final
+On event days, exhibitor support is at the West Concourse desk from 07:00 until 19:00.

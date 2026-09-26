@@ -1,0 +1,51 @@
+{
+  "messy": {
+    "text": "umm for LumaPad S1 what what is the warranty period and uh what liquid damage is excluded and erm what receipt do I need for repair",
+    "prefixes": [
+      "umm for LumaPad S1",
+      "umm for LumaPad S1 what what is the warranty period",
+      "umm for LumaPad S1 what what is the warranty period and uh what liquid damage is excluded"
+    ]
+  },
+  "compound": {
+    "text": "For LumaPad S1, what is the warranty period and what liquid damage is excluded and what receipt is required for a repair?",
+    "prefixes": [
+      "For LumaPad S1",
+      "For LumaPad S1, what is the warranty period",
+      "For LumaPad S1, what is the warranty period and what liquid damage is excluded"
+    ]
+  },
+  "correction": {
+    "text": "What is the limited warranty for LumaPad S2?",
+    "prefixes": [
+      "What is the limited warranty",
+      "What is the limited warranty for LumaPad S1 device coverage",
+      "What is the limited warranty for LumaPad S2?"
+    ],
+    "revision": true
+  },
+  "value_correction": {
+    "text": "umm for LumaCam C2 how much Basic video history is kept? It is 60, not 6 days.",
+    "prefixes": [
+      "umm for LumaCam C2",
+      "umm for LumaCam C2 how much Basic video history is kept? It is 6 days.",
+      "umm for LumaCam C2 how much Basic video history is kept? It is 60, not 6 days."
+    ],
+    "revision": true
+  },
+  "refinement": {
+    "text": "For LumaPad S1, what is the warranty period and what receipt opens a repair?",
+    "prefixes": [
+      "For LumaPad S1, what is the warranty",
+      "For LumaPad S1, what is the warranty period and what receipt opens a repair"
+    ],
+    "followup": "What about warranty liquid damage exclusions?"
+  },
+  "unknown": {
+    "text": "What telepathy features does LumaPad S1 offer?",
+    "prefixes": [
+      "What telepathy",
+      "What telepathy features does LumaPad S1 offer?"
+    ]
+  }
+}

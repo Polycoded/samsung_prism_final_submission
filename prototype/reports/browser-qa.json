@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    "compound replay",
+    "source inspector",
+    "format suppression",
+    "natural refinement",
+    "ASR correction",
+    "uncertainty",
+    "scorecard",
+    "corpus browser",
+    "audit download",
+    "390/768/1440 overflow",
+    "reduced motion",
+    "no JS errors"
+  ],
+  "javascript_errors": []
+}

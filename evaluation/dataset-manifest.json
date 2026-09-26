@@ -1,0 +1,15 @@
+{
+  "acceptance_cases": 60,
+  "acceptance_sha256": "beae23a801229bf493b472083437b589724e07312640c18397411ad1e2644641",
+  "development_variants": 120,
+  "development_families": 10,
+  "official_validation": "pending",
+  "runtime_corpus": "prototype/corpus.json",
+  "source_documents": "prototype/corpus/sources",
+  "acceptance_dataset": "evaluation/acceptance-v1.json",
+  "development_dataset": "evaluation/development-v1.json",
+  "development_sha256": "4ab1caf17f35b3b1e865a8c67957b62e14129036f6f1f17908672285090635bf",
+  "corpus_file_sha256": "693aeffa6ddd7483ee31fd0ed220eeef96ef720f2e6b6b5ffc6b0de69de789bb",
+  "corpus_label": "Fictional LumaHome support control (existing named corpus)",
+  "boundary_training_data": "Separate ATIS/SNIPS; never used as corpus or gated benchmark"
+}
