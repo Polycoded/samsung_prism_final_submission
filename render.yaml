@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: citefrontier
+    runtime: docker
+    repo: https://github.com/Polycoded/samsung_prism_final_submission
+    plan: free
+    rootDir: .
+    dockerfilePath: prototype/Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: CITEFRONTIER_BACKEND
+        value: dense
+      - key: CITEFRONTIER_PARSER
+        value: auto
+      - key: CITEFRONTIER_FALLBACK_PARSER
+        value: spacy
+      - key: CITEFRONTIER_BERT_MODEL
+        value: /app/bert_intent_tagger/model/checkpoints/best
+      - key: CITEFRONTIER_BERT_THRESHOLD
+        value: "0.90"
+      - key: CITEFRONTIER_BERT_DISAGREE_THRESHOLD
+        value: "0.97"
