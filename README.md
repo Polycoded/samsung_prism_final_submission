@@ -122,3 +122,7 @@ Detailed evidence is in [`SUBMISSION-MANIFEST.md`](SUBMISSION-MANIFEST.md), [`SU
 ## Boundaries
 
 The bundled corpus and acceptance suite are disclosed synthetic controls. Official organizer-corpus validation remains pending. The submitted container runs BM25/MiniLM hybrid retrieval, cross-encoder reranking, and guarded DistilBERT boundaries with spaCy fallback. The live product performs text processing only and contains no microphone or voice pipeline.
+
+## Demo Video
+
+[Watch the CiteFrontier Demo Video](https://drive.google.com/file/d/14lOkclRvr-2hIA05pVYTHJVVCGAQOb2u/view?usp=sharing)
